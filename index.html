@@ -1,0 +1,1602 @@
+<!-- 
+    Proof that I did it myself.
+    Monish.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+        <!-- 
+          - primary meta tags
+        -->
+        <title>EpicBites - A Taste You'll Remember</title>
+        <meta name="title" content="EpicBites - A Taste You'll Remember">
+        <meta name="description" content="This is a Restaurant website made by Vaishnav S">
+      
+        <!-- 
+          - favicon
+        -->
+        <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+      
+        <!-- 
+          - google font link
+        -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+      
+        <!-- 
+          - custom css link
+        -->
+        <link rel="stylesheet" href="./assets/css/style.css">
+      
+        <!-- 
+          - preload images
+        -->
+        <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg">
+        <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg">
+        <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg">
+      
+    </head>
+<body id="top">
+    
+<!-- 
+    - #PRELOADER
+-->
+      
+    <div class="preload" data-preaload>
+        <div class="circle"></div>
+        <p class="text">EPICBITES</p>
+    </div>    
+    
+    <div class="topbar">
+        <div class="container">
+    
+          <address class="topbar-item">
+            <div class="icon">
+              <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+            </div>
+    
+            <span class="span">
+                Northumberland St, Newcastle upon Tyne NE1 7AS
+            </span>
+          </address>
+
+
+          <div class="separator"></div>
+
+
+          <div class="topbar-item item-2">
+            <div class="icon">
+              <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+            </div>
+    
+            <span class="span"> 24 Hours Service</span>
+          </div>   
+          
+          <a href="tel:+11234567890" class="topbar-item link">
+            <div class="icon">
+              <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+            </div>
+    
+            <span class="span">+1 123 456 7890</span>
+          </a>
+
+
+          <div class="separator"></div>
+
+          <a href="mailto:booking@restaurant.com" class="topbar-item link">
+            <div class="icon">
+              <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+            </div>
+    
+            <span class="span">vsreekumar4u@gmail.com</span>
+          </a>
+        </div>
+    </div>
+
+    <header class="header" data-header>
+        <div class="container">
+    
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.png" width="180" height="60" alt="EPICBITES - Home">
+          </a>
+
+          <nav class="navbar" data-navbar>
+
+            <button class="close-btn" aria-label="close menu" data-nav-toggler>
+              <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+            </button>
+    
+            <a href="#" class="logo">
+              <img src="./assets/images/logo.png" width="160" height="50" alt="Grilli - Home">
+            </a>
+    
+            <ul class="navbar-list">
+    
+              <li class="navbar-item">
+                <a href="#home" class="navbar-link hover-underline active">
+                  <div class="separator"></div>
+    
+                  <span class="span">Home</span>
+                </a>
+              </li>
+    
+              <li class="navbar-item">
+                <a href="#menu" class="navbar-link hover-underline">
+                  <div class="separator"></div>
+    
+                  <span class="span">Menus</span>
+                </a>
+              </li>
+    
+              <li class="navbar-item">
+                <a href="#about" class="navbar-link hover-underline">
+                  <div class="separator"></div>
+    
+                  <span class="span">About Us</span>
+                </a>
+              </li>
+    
+              <li class="navbar-item">
+                <a href="#chooseus" class="navbar-link hover-underline">
+                  <div class="separator"></div>
+    
+                  <span class="span">Why us</span>
+                </a>
+              </li>
+    
+              <li class="navbar-item">
+                <a href="#contact" class="navbar-link hover-underline">
+                  <div class="separator"></div>
+    
+                  <span class="span">Contact</span>
+                </a>
+              </li>
+    
+            </ul>
+    
+            <div class="text-center">
+              <p class="headline-1 navbar-title">Visit Us</p>
+    
+              <address class="body-4">
+                Northumberland St, Newcastle upon Tyne NE1 7AS
+              </address>
+    
+              <p class="body-4 navbar-text">Open 24 Hours Daily</p>
+    
+              <a href="mailto:booking@grilli.com" class="body-4 sidebar-link">vsreekumar4u@gmail.com</a>
+    
+              <div class="separator"></div>
+    
+              <p class="contact-label">Booking Request</p>
+    
+              <a href="tel:+88123123456" class="body-1 contact-number hover-underline">
+                +88-123-123456
+              </a>
+            </div>
+    
+          </nav>
+
+          <a href="#reservation" class="btn btn-secondary">
+        <span class="text text-1">Find A Table</span>
+
+        <span class="text text-2" aria-hidden="true">Find A Table</span>
+      </a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+  <main>
+    <article>
+      
+      <section class="hero text-center" aria-label="home" id="home">
+
+        <ul class="hero-slider" data-hero-slider>
+
+          <li class="slider-item active" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/hero-slider-1.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">Traditional & Hygiene</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              For the love of <br>
+              delicious food
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Come with your family or friends & feel the joy of mouthwatering food
+            </p>
+
+            <a href="#menu" class="btn btn-primary slider-reveal">
+              <span class="text text-1">View Our Menu</span>
+
+              <span class="text text-2" aria-hidden="true">View Our Menu</span>
+            </a>
+
+          </li>
+
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/hero-slider-2.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">delightful experience</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Flavours Inspired by <br>
+              the World
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Come with your family or friends & feel the joy of mouthwatering food
+            </p>
+
+            <a href="#menu" class="btn btn-primary slider-reveal">
+              <span class="text text-1">View Our Menu</span>
+
+              <span class="text text-2" aria-hidden="true">View Our Menu</span>
+            </a>
+
+          </li>
+
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/hero-slider-3.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">amazing & delicious</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Where every dish <br>
+              tells a story
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Come with your family or friends & feel the joy of mouthwatering food
+            </p>
+
+            <a href="#menu" class="btn btn-primary slider-reveal">
+              <span class="text text-1">View Our Menu</span>
+
+              <span class="text text-2" aria-hidden="true">View Our Menu</span>
+            </a>
+
+          </li>
+
+        </ul>
+
+        <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+          <ion-icon name="chevron-back"></ion-icon>
+        </button>
+
+        <button class="slider-btn next" aria-label="slide to next" data-next-btn>
+          <ion-icon name="chevron-forward"></ion-icon>
+        </button>
+
+        <a href="#reservation" class="hero-btn has-after">
+          <img src="./assets/images/hero-icon.png" width="48" height="48" alt="booking icon">
+
+          <span class="label-2 text-center span">Book A Table</span>
+        </a>
+
+      </section>
+
+
+
+      <section class="section service bg-black-10 text-center" aria-label="service">
+        <div class="container">
+
+          <p class="section-subtitle label-2">A Taste You'll Remember</p>
+
+          <h2 class="headline-1 section-title">We Offer Top Notch</h2>
+
+          <p class="section-text">
+            We offer a wide variety of multicultural and ethnic foods from around the world, with our own prestigious and beautiful flair - the best in Newcastle </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <a href="#dessertid" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/service-1.jpg" width="285" height="336" loading="lazy" alt="Breakfast"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#dessertid">Desserts</a>
+                  </h3>
+
+                  <a href="#dessertid" class="btn-text hover-underline label-2">View Menu</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <a href="#dishid" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/service-2.jpg" width="285" height="336" loading="lazy" alt="Appetizers"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#dishid">Dishes</a>
+                  </h3>
+
+                  <a href="#dishid" class="btn-text hover-underline label-2">View Menu</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <a href="#drinkid" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/service-3.jpg" width="285" height="336" loading="lazy" alt="Drinks"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#drinkid">Drinks</a>
+                  </h3>
+
+                  <a href="#drinkid" class="btn-text hover-underline label-2">View Menu</a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <img src="./assets/images/shape-1.png" width="246" height="412" loading="lazy" alt="shape"
+            class="shape shape-1 move-anim">
+          <img src="./assets/images/shape-2.png" width="343" height="345" loading="lazy" alt="shape"
+            class="shape shape-2 move-anim">
+
+        </div>
+      </section>
+
+
+      <section class="section about text-center" aria-labelledby="about-label" id="about">
+        <div class="container">
+
+          <div class="about-content">
+
+            <p class="label-2 section-subtitle" id="about-label">Our Promise</p>
+
+            <h2 class="headline-1 section-title">A Taste You'll Remember</h2>
+
+            <p class="section-text">
+              Here at EPICBITES, all of our dishes are specifically and carefully made by experienced and talented chefs,
+              to ensure that our food will always impress you. Made with natural and environment-friendly
+              ingredients, we care as much about nature as we care about you.
+            </p>
+
+            <div class="contact-label">Book Through Call</div>
+
+            <a href="tel:+804001234567" class="body-1 contact-number hover-underline">+1 123 456 7890</a>
+
+            <a href="#" class="btn btn-primary">
+              <span class="text text-1">Read More</span>
+
+              <span class="text text-2" aria-hidden="true">Read More</span>
+            </a>
+
+          </div>
+
+
+          <figure class="about-banner">
+
+            <img src="./assets/images/about-banner.jpg" width="570" height="570" loading="lazy" alt="about banner"
+              class="w-100" data-parallax-item data-parallax-speed="1">
+
+            <div class="abs-img abs-img-1 has-before" data-parallax-item data-parallax-speed="1.75">
+              <img src="./assets/images/about-abs-image.jpg" width="285" height="285" loading="lazy" alt=""
+                class="w-100">
+            </div>
+
+            <div class="abs-img abs-img-2 has-before">
+              <img src="./assets/images/badge-2.png" width="133" height="134" loading="lazy" alt="">
+            </div>
+
+          </figure>
+
+          <img src="./assets/images/shape-3.png" width="197" height="194" loading="lazy" alt="" class="shape">
+
+        </div>
+      </section>
+
+
+      <section class="special-dish text-center" aria-labelledby="dish-label">
+
+        <div class="special-dish-banner">
+          <img src="./assets/images/special-dish-banner.jpg" width="940" height="900" loading="lazy" alt="special dish"
+            class="img-cover">
+        </div>
+
+        <div class="special-dish-content bg-black-10">
+          <div class="container">
+
+            <img src="./assets/images/badge-1.png" width="28" height="41" loading="lazy" alt="badge" class="abs-img">
+
+            <p class="section-subtitle label-2">Dish of the Day</p>
+
+            <h2 class="headline-1 section-title">Lobster Tortellini</h2>
+
+            <p class="section-text">
+              Elevate your day with a creamy and delicious, Italian-style Lobster Tortellini. <br>
+
+This delicate and flavorful pasta dish from the Italian region of Emilia is stuffed with monsoon lobster meat and tossed in a mouth-watering pink sauce 
+featuring plump tomatoes and hints of tarragon. The elegant flavours and textures in this dish will leave you hungry for more.
+            </p>
+
+            <div class="wrapper">
+              <del class="del body-3">£20.00</del>
+
+              <span class="span body-1">£12.00</span>
+            </div>
+
+            <a href="#menu" class="btn btn-primary">
+              <span class="text text-1">View Full Menu</span>
+
+              <span class="text text-2" aria-hidden="true">View All Menu</span>
+            </a>
+
+          </div>
+        </div>
+
+        <img src="./assets/images/shape-4.png" width="179" height="359" loading="lazy" alt="" class="shape shape-1">
+
+        <img src="./assets/images/shape-9.png" width="351" height="462" loading="lazy" alt="" class="shape shape-2">
+
+        </section>
+
+      <section class="section menu" aria-label="menu-label" id="menu">
+        <div class="container">
+
+          <p class="section-subtitle text-center label-2">Special Selection</p>
+
+          <h2 class="headline-1 section-title text-center">Delicious Menu</h2>
+
+          <p class="section-subtitle text-center label-2" style="font-size: 20px">Starters & Sides</p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="width: 100px; height: 100px;">
+                  <img src="./assets/images/menu-1.png" width="100" height="100" loading="lazy" alt="Chicken Wings"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Chicken Wings</a>
+                    </h3>
+
+                    <span class="badge label-1">Spicy</span>
+
+                    <span class="span title-2">£7.50</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Deep-fried chicken wings coated with a vinegar-and-cayenne-pepper hot sauce mixed with butter. Served with a variety of different sauces.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="width: 100px; height: 100px;">
+                  <img src="./assets/images/menu-2.png" width="100" height="100" loading="lazy" alt="Salad"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Vegetable Salad</a>
+                    </h3>
+
+                    <span class="badge label-1">Vegetarian</span>
+
+                    <span class="span title-2">£3.50</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Tomatoes, Lettuce, Cheeses, Carrots, Onions, and other vegetables, with an option of a drizzle of honey. 
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="width: 100px; height: 100px;">
+                  <img src="./assets/images/menu-3.png" width="100" height="100" loading="lazy" alt="Spring Rolls"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Spring Rolls</a>
+                    </h3>
+                    <span class="badge label-1">Chinese</span>
+
+                    <span class="span title-2">£6.00</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Filled with minced vegetables, seafood, poultry, or meat,  made from dough that is rolled and baked, deep fried, or steamed. Served fresh with a prepared wrapper that is ready to eat.
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="width: 100px; height: 100px;">
+                  <img src="./assets/images/menu-4.png" width="100" height="100" loading="lazy" alt="Patatas Bravas"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Patatas Bravas</a>
+                    </h3>
+
+                    <span class="badge label-1">Spanish</span>
+                    <span class="badge label-1">New</span>
+
+                    <span class="span title-2">£7.25</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    The most popular Spanish tapa, made of crispy fried potatoes that are tossed with salsa brava or bravas sauce.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="width: 100px; height: 100px;">
+                  <img src="./assets/images/menu-5.png" width="100" height="100" loading="lazy" alt="Shrimp Skewers"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Shrimp Skewers</a>
+                    </h3>
+                    
+                    <span class="badge label-1">Seafood</span>
+                    <span class="badge label-1">Popular</span>
+
+                    <span class="span title-2">£4.99</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    These grilled shrimp skewers are shrimp marinated in garlic, lemon and herbs, then threaded onto sticks and cooked to perfection. They can be on your table within seconds,  perfect for a busy night.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+            
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="width: 100px; height: 100px;">
+                  <img src="./assets/images/menu-6.png" width="100" height="100" loading="lazy" alt="Dumplings"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Dumplings</a>
+                    </h3>
+                    <span class="badge label-1">Asian</span>
+                    <span class="badge label-1">Spicy</span>
+                    <span class="span title-2">£6.35</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Delicate, bite-sized treats of different fillings wrapped in a thin layer of dough. They can be both savoury and sweet, and may be boiled, steamed and fried - the choice is yours!
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            
+          </ul>
+
+
+
+          <!-- 
+    - #MAIN MENU
+-->
+
+          <p class="section-subtitle text-center label-2" style="font-size: 20px" id="dishid">Main Dishes</p>
+          
+          <ul class="grid-list">
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="width: 100px; height: 100px;">
+                  <img src="./assets/images/englishbreakfast.png" width="100" height="100" loading="lazy" alt="English Breakfast"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">English Breakfast</a>
+                    </h3>
+
+                    <span class="badge label-1">Traditional</span>
+
+                    <span class="span title-2">£11.50</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    The infamous breakfast containing bacon, fried, poached or scrambled eggs, fried or grilled tomatoes, fried mushrooms, fried bread or buttered toast, and sausages.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="width: 100px; height: 100px;">
+                  <img src="./assets/images/lasagna.png" width="100" height="100" loading="lazy" alt="Lasagna"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Lasagna</a>
+                    </h3>
+
+                    <span class="badge label-1">Italian</span>
+                    <span class="badge label-1">Popular</span>
+
+                    <span class="span title-2">£12.99</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    A rich and creamy whole-wheat pasta dish filled layer by layer with refreshingly fresh onions and garlic, lathered in a succulent sauce and topped with imported, premium quality mozzarella.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="width: 100px; height: 100px;">
+                  <img src="./assets/images/paella.png" width="100" height="100" loading="lazy" alt="Paella"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Paella</a>
+                    </h3>
+
+                    <span class="badge label-1">Spanish</span>
+                    <span class="badge label-1">SEAFOOD</span>
+
+                    <span class="span title-2">£14.50</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    A steamy dish of saffron-flavoured rice cooked with meats, seafood, and vegetables. Originating in the rice-growing areas on Spain's Mediterranean coast, the dish is especially associated with the region of Valencia.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="width: 100px; height: 100px;">
+                  <img src="./assets/images/ramen.png" width="100" height="100" loading="lazy" alt="Ramen"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Ramen</a>
+                    </h3>
+
+                    <span class="badge label-1">Japanese</span>
+                    <span class="badge label-1">Spicy</span>
+
+                    <span class="span title-2">£16.50</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    A Japanese noodle soup, with a combination of a rich flavoured broth, one of a variety of types of noodle and a selection of meats or vegetables, with a choice of a boiled egg.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="width: 100px; height: 100px;">
+                  <img src="./assets/images/chickentikka.png" width="100" height="100" loading="lazy" alt="Chicken Tikka Masala"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Chicken Tikka Masala</a>
+                    </h3>
+
+                    <span class="badge label-1">Indian</span>
+                    <span class="badge label-1">Curry</span>
+
+                    <span class="span title-2">£12.50</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    A curry dish consisting of marinated boneless chicken pieces that are traditionally cooked in a tandoor and then served in a subtly spiced tomato-cream sauce, infamous for its unique and addicting taste. You can choose your spice level!
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="width: 100px; height: 100px;">
+                  <img src="./assets/images/fishfingerschips.png" width="100" height="100" loading="lazy" alt="Fish Fingers and Chips"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Fish Fingers</a>
+                    </h3>
+
+                    <span class="badge label-1">Traditional</span>
+                    <span class="badge label-1">British</span>
+
+                    <span class="span title-2">£9.50</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Four breaded fish fingers served with chips, broccoli and sliced carrots. This dish has a unique charm, plus its infamous taste which makes it one of the most instantly recognisable dishes in the whole of England.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="width: 100px; height: 100px;">
+                  <img src="./assets/images/tacos.png" width="100" height="100" loading="lazy" alt="Tacos"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Tacos/Burritos</a>
+                    </h3>
+
+                    <span class="badge label-1">Mexican</span>
+                    <span class="badge label-1">Spicy</span>
+
+                    <span class="span title-2">£10.50</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    A traditional Mexican food consisting of a small hand-sized corn- or wheat-based tortilla topped with a filling, folded around the filling and eaten by hand. You can use your own fillings, and your shape!
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="width: 100px; height: 100px;">
+                  <img src="./assets/images/spaghetti.png" width="100" height="100" loading="lazy" alt="Spaghetti"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Spaghetti</a>
+                    </h3>
+
+                    <span class="badge label-1">Italian</span>
+                    <span class="badge label-1">Flavourful</span>
+
+                    <span class="span title-2">£13.25</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    One of the most famous Italian pasta dishes, this is one of our specialties here at EPICBITES. We constantly try to experiment and improve our recipes, and developing our tastes.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+          </ul>
+          
+<!-- 
+    - #DESSERT MENU
+-->
+          <p class="section-subtitle text-center label-2" style="font-size: 20px"  id="dessertid">DESSERTS</p>
+
+
+          <ul class="grid-list">
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="width: 100px; height: 100px;">
+                  <img src="./assets/images/icecream.png" width="100" height="100" loading="lazy" alt="Ice Cream"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Ice Cream</a>
+                    </h3>
+
+                    <span class="badge label-1">Classic</span>
+                    <span class="badge label-1">Kids</span>
+
+                    <span class="span title-2">£2.50</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Vannila, Strawberry, Chocolate, Butterscotch, Pistachio, and Caramel Ice Creams, with a choice of upto 5 different sauces on top, accompanied by a classic Flake.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="width: 100px; height: 100px;">
+                  <img src="./assets/images/milkshake.png" width="100" height="100" loading="lazy" alt="Milkshake"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Milkshakes</a>
+                    </h3>
+
+                    <span class="badge label-1">Classic</span>
+                    <span class="badge label-1">Traditional</span>
+
+                    <span class="span title-2">£3.99</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    A sweet beverage made by blending milk, ice cream, and flavorings or sweeteners such as butterscotch, caramel sauce, chocolate syrup, fruit syrup, or whole fruit into a thick, sweet, cold mixture. Over 10 flavours to choose from.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="width: 100px; height: 100px;">
+                  <img src="./assets/images/pastries.png" width="100" height="100" loading="lazy" alt="Pastries"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Pastries</a>
+                    </h3>
+
+                    <span class="badge label-1">Sweet</span>
+                    <span class="badge label-1">Cake</span>
+
+                    <span class="span title-2">£1.50</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Sweet cakes that are cut into small muffins with an elegant design. Flavours include Chocolate, Peanut, Red Velvet, and more, with an option of specially made whipped cream.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="width: 100px; height: 100px;">
+                  <img src="./assets/images/puddings.png" width="100" height="100" loading="lazy" alt="Puddings"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Puddings</a>
+                    </h3>
+
+                    <span class="badge label-1">Sweet</span>
+                    <span class="badge label-1">Traditional</span>
+
+                    <span class="span title-2">£2.00</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                   A small pudding, topped with chocolate custard and an option of an assortment of fruits. It soft, spongy, and thick texture will make you feel desperate for more.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+          </ul>
+
+
+          <!-- 
+    - #DRINK MENU
+-->
+          <p class="section-subtitle text-center label-2" style="font-size: 20px"  id="drinkid">DRINKS</p>
+          <ul class="grid-list">
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="width: 100px; height: 100px;">
+                  <img src="./assets/images/water.png" width="100" height="100" loading="lazy" alt="Water"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Water</a>
+                    </h3>
+
+                    <span class="badge label-1">Non-Sparkling</span>
+                    <span class="badge label-1">Sparkling</span>
+
+                    <span class="span title-2">Free!</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    You are able to choose between normal water or sparkling water whenever you visit us for free. We will make sure that water will be provided to you as quickly as possible, and free refills.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="width: 100px; height: 100px;">
+                  <img src="./assets/images/teacoffee.png" width="100" height="100" loading="lazy" alt="Tea/Coffee"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Tea/Coffee</a>
+                    </h3>
+
+                    <span class="badge label-1">Caffeine</span>
+                    <span class="badge label-1">Classic</span>
+
+                    <span class="span title-2">£1.00</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    An assortment of different teas and coffees, all customised to your specific needs. You can choose whether you want to drink it seperately or together with your food.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+          </ul>
+
+
+          <p class="menu-text text-center">
+            We are always open <span class="span">Monday</span> to <span class="span">Sunday</span>, 24 Hours Service
+          </p>
+
+          <a href="#menu" class="btn btn-primary">
+            <span class="text text-1">View All Menu</span>
+
+            <span class="text text-2" aria-hidden="true">View All Menu</span>
+          </a>
+
+          <img src="./assets/images/shape-5.png" width="921" height="1036" loading="lazy" alt="shape"
+            class="shape shape-2 move-anim">
+          <img src="./assets/images/shape-6.png" width="343" height="345" loading="lazy" alt="shape"
+            class="shape shape-3 move-anim">
+
+        </div>
+      </section>
+  
+  
+
+      <section class="section testi text-center has-bg-image"
+        style="background-image: url('./assets/images/testimonial-bg.jpg')" aria-label="testimonials">
+        <div class="container">
+
+          <div class="quote">”</div>
+
+          <p class="headline-2 testi-text">
+            The Best food I have ever tasted - 10/10. I still have it's taste in the tip of my mouth.
+          </p>
+
+          <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+
+          <div class="profile">
+            <img src="./assets/images/testi-avatar.jpg" width="100" height="100" loading="lazy" alt="Gordon Ramsay"
+              class="img">
+
+            <p class="label-2 profile-name">Gordon Ramsay</p>
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+      <!-- 
+        - #RESERVATION
+      -->
+
+      <section class="reservation" id="reservation">
+        <div class="container">
+
+          <div class="form reservation-form bg-black-10">
+
+            <form action="" class="form-left">
+
+              <h2 class="headline-1 text-center">Online Reservation</h2>
+
+              <p class="form-text text-center">
+                Booking request <a href="tel:+88123123456" class="link">+1 123 456 7890</a>
+                or fill out the order form
+              </p>
+
+              <div class="input-wrapper">
+                <input type="text" name="name" placeholder="Your Name" autocomplete="off" class="input-field">
+
+                <input type="tel" name="phone" placeholder="Phone Number" autocomplete="off" class="input-field">
+              </div>
+
+              <div class="input-wrapper">
+
+                <div class="icon-wrapper">
+                  <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+                  <select name="person" class="input-field">
+                    <option value="1-person">1 Person</option>
+                    <option value="2-person">2 Person</option>
+                    <option value="3-person">3 Person</option>
+                    <option value="4-person">4 Person</option>
+                    <option value="5-person">5 Person</option>
+                    <option value="6-person">6 Person</option>
+                    <option value="7-person">7 Person</option>
+                    <option value="7-person">More than 7 People</option>
+                  </select>
+
+                  <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div class="icon-wrapper">
+                  <ion-icon name="calendar-clear-outline" aria-hidden="true"></ion-icon>
+
+                  <input type="date" name="reservation-date" class="input-field">
+
+                  <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div class="icon-wrapper">
+                  <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                  <select name="person" class="input-field">
+                    <option value="08:00am">08 : 00 am</option>
+                    <option value="09:00am">09 : 00 am</option>
+                    <option value="010:00am">10 : 00 am</option>
+                    <option value="011:00am">11 : 00 am</option>
+                    <option value="012:00am">12 : 00 am</option>
+                    <option value="01:00pm">01 : 00 pm</option>
+                    <option value="02:00pm">02 : 00 pm</option>
+                    <option value="03:00pm">03 : 00 pm</option>
+                    <option value="04:00pm">04 : 00 pm</option>
+                    <option value="05:00pm">05 : 00 pm</option>
+                    <option value="06:00pm">06 : 00 pm</option>
+                    <option value="07:00pm">07 : 00 pm</option>
+                    <option value="08:00pm">08 : 00 pm</option>
+                    <option value="09:00pm">09 : 00 pm</option>
+                    <option value="10:00pm">10 : 00 pm</option>
+                    <option value="10:00pm">11 : 00 pm</option>
+                    <option value="10:00pm">12 : 00 pm</option>
+                    <option value="10:00pm">13 : 00 pm</option>
+                    <option value="10:00pm">14 : 00 pm</option>
+                    <option value="10:00pm">15 : 00 pm</option>
+                    <option value="10:00pm">16 : 00 pm</option>
+                    <option value="10:00pm">17 : 00 pm</option>
+                    <option value="10:00pm">18 : 00 pm</option>
+                    <option value="10:00pm">19 : 00 pm</option>
+                    <option value="10:00pm">20 : 00 pm</option>
+                    <option value="10:00pm">21 : 00 pm</option>
+                    <option value="10:00pm">22 : 00 pm</option>
+                    <option value="10:00pm">23 : 00 pm</option>
+                    <option value="10:00pm">24 : 00 pm</option>
+                  </select>
+
+                  <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                </div>
+
+              </div>
+
+              <textarea name="message" placeholder="Message" autocomplete="off" class="input-field"></textarea>
+
+              <button type="submit" class="btn btn-secondary">
+                <span class="text text-1">Book A Table</span>
+
+                <span class="text text-2" aria-hidden="true">Book A Table</span>
+              </button>
+
+            </form>
+
+            <div class="form-right text-center" style="background-image: url('./assets/images/form-pattern.png')">
+
+              <h2 class="headline-1 text-center">Contact Us</h2>
+
+              <p class="contact-label">Booking Request</p>
+
+              <a href="tel:+88123123456" class="body-1 contact-number hover-underline">+1 123 456 7890</a>
+
+              <div class="separator"></div>
+
+              <p class="contact-label">Location</p>
+
+              <address class="body-4">
+                Northumberland St, Newcastle upon Tyne, <br>
+                NE1 7AS, UK
+              </address>
+
+              <p class="contact-label">Lunch Time</p>
+
+              <p class="body-4">
+                Monday to Sunday <br>
+                11.00 am - 2.30pm
+              </p>
+
+              <p class="contact-label">Dinner Time</p>
+
+              <p class="body-4">
+                Monday to Sunday <br>
+                05.00 pm - 10.00pm
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <section class="section features text-center" aria-label="features" id="chooseus">
+        <div class="container">
+
+          <p class="section-subtitle label-2">Why Choose Us</p>
+
+          <h2 class="headline-1 section-title">Our Strengths</h2>
+
+          <ul class="grid-list">
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/features-icon-1.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Hygienic Food</h3>
+
+                <p class="label-1 card-text">We always make sure that the entire restaurant is thoroughly clean and tidy.</p>
+
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/features-icon-2.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Efficiency</h3>
+
+                <p class="label-1 card-text">You will recieve your food within 10 minutes, no matter what it is.</p>
+
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/features-icon-3.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Skilled Chefs</h3>
+
+                <p class="label-1 card-text">All of our chefs are extremely experienced, and will strive to work as best as they can for you.</p>
+
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/features-icon-4.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Events & Parties</h3>
+
+                <p class="label-1 card-text">We have specialised events and parties - just mention these bookings in the Messages column. We will make sure that your party will be the best!</p>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <img src="./assets/images/shape-7.png" width="208" height="178" loading="lazy" alt="shape"
+            class="shape shape-1">
+
+          <img src="./assets/images/shape-8.png" width="120" height="115" loading="lazy" alt="shape"
+            class="shape shape-2">
+
+        </div>
+      </section>
+
+      <section class="section event bg-black-10" aria-label="event">
+        <div class="container">
+
+          <p class="section-subtitle label-2 text-center">Recent Updates</p>
+
+          <h2 class="section-title headline-1 text-center">Upcoming Events</h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="./assets/images/event-1.jpg" width="350" height="450" loading="lazy"
+                    alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
+
+                  <time class="publish-date label-2" datetime="2022-09-15">28/03/2022</time>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center">Policy Update</p>
+
+                  <h3 class="card-title title-2 text-center">
+                    A Taste You'll Remember
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="./assets/images/event-2.jpg" width="350" height="450" loading="lazy"
+                    alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
+
+                  <time class="publish-date label-2" datetime="2022-09-08">08/04/2023</time>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center">New Dishes</p>
+
+                  <h3 class="card-title title-2 text-center">
+                    Flavours Inspired by the World.
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="./assets/images/event-3.jpg" width="350" height="450" loading="lazy"
+                    alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
+
+                  <time class="publish-date label-2" datetime="2022-09-03">03/09/2023</time>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center">Recipies</p>
+
+                  <h3 class="card-title title-2 text-center">
+                    For the love of Delicious Food
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <a href="#" class="btn btn-primary">
+            <span class="text text-1">View Our Blog</span>
+
+            <span class="text text-2" aria-hidden="true">View Our Blog</span>
+          </a>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+  <footer id = "contact" class="footer section has-bg-image text-center"
+  style="background-image: url('./assets/images/footer-bg.jpg')">
+  <div class="container">
+
+    <div class="footer-top grid-list">
+
+      <div class="footer-brand has-before has-after">
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.png" width="160" height="50" loading="lazy" alt="grilli home">
+        </a>
+
+        <address class="body-4">
+          Northumberland St, Newcastle upon Tyne NE1 7AS, UK
+        </address>
+
+        <a href="mailto:booking@grilli.com" class="body-4 contact-link">vsreekumar4u@gmail.com</a>
+
+        <a href="tel:+88123123456" class="body-4 contact-link">Booking Request : +1 123 456 7890</a>
+
+        <p class="body-4">
+          Open : 12 am - 12 pm
+        </p>
+
+        <div class="wrapper">
+          <div class="separator"></div>
+          <div class="separator"></div>
+          <div class="separator"></div>
+        </div>
+
+        <p class="title-1">Get News & Offers</p>
+
+        <p class="label-1">
+          Subscribe & Get <span class="span">25% Off.</span>
+        </p>
+
+        <form action="" class="input-wrapper">
+          <div class="icon-wrapper">
+            <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+            <input type="email" name="email_address" placeholder="Your email" autocomplete="off" class="input-field">
+          </div>
+
+          <button type="submit" class="btn btn-secondary">
+            <span class="text text-1">Subscribe</span>
+
+            <span class="text text-2" aria-hidden="true">Subscribe</span>
+          </button>
+        </form>
+
+      </div>
+
+      <ul class="footer-list">
+
+        <li>
+          <a href="#" class="label-2 footer-link hover-underline">Home</a>
+        </li>
+
+        <li>
+          <a href="#menu" class="label-2 footer-link hover-underline">Menus</a>
+        </li>
+
+        <li>
+          <a href="#about" class="label-2 footer-link hover-underline">About Us</a>
+        </li>
+
+        <li>
+          <a href="#chooseus" class="label-2 footer-link hover-underline">Why us</a>
+        </li>
+
+        <li>
+          <a href="#contact" class="label-2 footer-link hover-underline">Contact</a>
+        </li>
+
+      </ul>
+
+      <ul class="footer-list">
+
+        <li>
+          <a href="#" class="label-2 footer-link hover-underline">Facebook</a>
+        </li>
+
+        <li>
+          <a href="#" class="label-2 footer-link hover-underline">Instagram</a>
+        </li>
+
+        <li>
+          <a href="#" class="label-2 footer-link hover-underline">Twitter</a>
+        </li>
+
+        <li>
+          <a href="#" class="label-2 footer-link hover-underline">Youtube</a>
+        </li>
+
+        <li>
+          <a href="#" class="label-2 footer-link hover-underline">Google Map</a>
+        </li>
+
+      </ul>
+
+    </div>
+
+    <div class="footer-bottom">
+
+      <p class="copyright">
+        &copy; 2023 EPICBITES. All Rights Reserved | Crafted by Vaishnav S.
+         
+      </p>
+
+    </div>
+
+  </div>
+</footer>
+
+
+
+
+
+    </article>
+  </main>
+
+
+
+    <script src="./assets/js/script.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+</body>
+</html>
